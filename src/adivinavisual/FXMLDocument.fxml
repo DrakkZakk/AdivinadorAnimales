@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="278.0" prefWidth="458.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adivinavisual.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="307.0" fitWidth="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fondo.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="61.0" prefHeight="49.0" prefWidth="198.0" text="¡Ven y Juega!" textFill="#13d7da">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="28.0" layoutY="193.0" mnemonicParsing="false" onAction="#Adivina" prefHeight="29.0" prefWidth="141.0" text="Jugar" textFill="#10c929">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="313.0" layoutY="151.0" mnemonicParsing="false" onAction="#nodoAltura" prefHeight="29.0" prefWidth="141.0" text="Num. Nodos y Altura" textFill="#10c929">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="319.0" layoutY="193.0" mnemonicParsing="false" onAction="#DibujaArbol" prefHeight="29.0" prefWidth="141.0" text="Dibujar Árbol" textFill="#10c929">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="28.0" layoutY="235.0" mnemonicParsing="false" onAction="#Creditos" prefHeight="29.0" prefWidth="141.0" text="Créditos" textFill="#10c929">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="35.0" layoutY="14.0" prefHeight="47.0" prefWidth="337.0" text="Adivinador de Animales" textFill="#f6ff00">
+         <font>
+            <Font name="Berlin Sans FB" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
